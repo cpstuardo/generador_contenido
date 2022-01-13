@@ -2,19 +2,38 @@
   text-align: center;
 }
 
+h1 {
+  font-family: "Open Sans", sans-serif;
+}
+
 .export-container {
   display: flex;
   justify-content: space-around;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: gray;
   height: 560px;
-  width: 380px;
+  width: 315px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./assets/fonts/Open-Sans/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: bold;
+  src: url("./assets/fonts/Open-Sans/OpenSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: italic;
+  src: url("./assets/fonts/Open-Sans/OpenSans-Italic.ttf") format("truetype");
 }
