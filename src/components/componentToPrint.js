@@ -5,7 +5,7 @@ import PiePlot from "./piePlot";
 import dataPiePlot from "../data/dataPiePlot";
 
 const ComponentToPrint = React.forwardRef((props, ref) => (
-  <header className="App-header" ref={ref}>
+  <header className="App-header" ref={ref} id={1}>
     <h1>Título</h1>
     <PiePlot data={dataPiePlot} />
     <br />
