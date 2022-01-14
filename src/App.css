@@ -6,11 +6,17 @@ h1 {
   font-family: "Open Sans", sans-serif;
 }
 
-.export-container {
+.col-exportable {
   display: flex;
+  flex: 2;
   justify-content: space-around;
+  margin-top: 0.5cm;
 }
 
+.col-options {
+  flex: 1;
+  margin-top: 5cm;
+}
 .App-header {
   background-color: #cdcdcd;
   height: 560px;
@@ -21,6 +27,14 @@ h1 {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.button1 {
+  margin-left: 1cm;
+}
+
+.button2 {
+  margin-left: 1cm;
 }
 
 @font-face {

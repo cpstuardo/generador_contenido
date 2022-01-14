@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.8",
     "@nivo/core": "^0.79.0",
     "@nivo/pie": "^0.79.1",
     "@progress/kendo-drawing": "^1.16.1",
@@ -16,6 +19,8 @@
     "react-component-export-image": "^1.0.6",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
+    "react-strap": "^0.0.1",
+    "reactstrap": "^9.0.1",
     "web-vitals": "^2.1.3"
   },
   "scripts": {
